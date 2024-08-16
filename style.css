@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Scheherazade+New:wght@400;500;600;700&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+     padding: 0;
+    box-sizing: 0;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    
+}
+.container{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+.logo{
+    font-size: 48px;
+    font-weight: bold;
+    align-items: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 12px;
+    font-size: small;
+}
+.head p{
+    font-size: small;
+}
+.head h1{
+    font-weight:bold;
+    margi
+}
+.main{
+    display: flex;
+}
+.first{
+    width:600px;
+}
+.first img{
+    width: 100%;
+
+}
+.head{
+    display: flex;
+    gap: 28px;
+    margin-top:20px ;
+}
+h1{
+    font-size: 42px;
+    font-weight: bold;
+    width: 300px;
+
+}
+.head div{
+    width: 350px;
+}
+.head button{
+    text-transform: uppercase;
+    padding: 12px 18px;
+    background-color: hsl(5, 85%, 63%);
+    border: 1px solid hsl(5, 85%, 63%);
+    margin-top: 20px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+
+}
+.list>div{
+    display: flex;
+    gap: 12px;
+}
+.list img{
+    width: 120px;
+
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.hamburger, .img-mob{
+    display:none;
+.
+}
+.final{
+    background-color: rgb(24, 6, 36);
+    margin-left:20px;
+    color: white;
+    margin-bottom: 20%;
+    font-size: small;
+    height: 400px;
+    width: 600px;
+}
+.final strong{
+    color: gold;
+    font-size: 50px;
+    margin-bottom: 10%;
+}
+.hydrogen{ justify-content: center;
+    margin-top: 10%;
+    font-size: small;
+
+}
+.hydrogen h4{
+    font-weight: bold;
+    margin-top: 10%;
+}
+.hydrogen p{
+margin-top: 15%;
+}
+@media only screen and (max-width: 768px){
+    .hamburger, .img-mob{
+        display: block;
+
+    }
+    nav ul, .img-desk{
+        display: none;
+
+    }
+    .head{
+        flex-direction: column;
+    }
+}
